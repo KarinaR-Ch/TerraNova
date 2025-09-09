@@ -148,7 +148,751 @@
 </head>
 
 <body>
-  <!-- твій існуючий HTML-код без змін -->
+    <!-- Header -->
+    <header class="header">
+        <nav class="header__container">
+            <div class="nav-group nav-group--wide">
+                <ul class="header__links left">
+                    <li><a href="#home" data-key="nav_home">Home</a></li>
+                    <li><a href="#residence" data-key="nav_residence">Residence</a></li>
+                    <li><a href="#destinations" data-key="nav_destinations">Destinations</a></li>
+                </ul>
+            </div>
+            <div class="header__logo">
+                <img src="https://raw.githubusercontent.com/KarinaR-Ch/Terra-Nova/main/img/Copilot_20250622_132442%201.png"
+                    alt="Terra Nova" />
+            </div>
+            <div class="nav-group nav-group--narrow">
+                <ul class="header__links right">
+                    <li><a href="#activities" data-key="nav_activities">Activities</a></li>
+                    <li><a href="#fotos" data-key="nav_fotos">Fotos</a></li>
+                    <li><a href="#join" data-key="nav_join">Join</a></li>
+                    <li class="lang-switch">
+                        <button id="langToggle">EN | GR</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home -->
+    <section class="home section-slider" id="home">
+        <div class="section-track">
+            <div class="section-slide">
+                <div class="home__slide">
+                    <div class="home__slide__image">
+                        <img src="https://raw.githubusercontent.com/KarinaR-Ch/Terra-Nova/main/img/greece-tithorea-eco-farm-family-hotel-%201%20(1).png"
+                            alt="" />
+                    </div>
+                    <div class="home__slide__text animate">
+                        <h2 data-key="home1_title">Feel · Breath · Enjoy</h2>
+                        <p data-key="home1_text" data-html="1">
+                            Close your eyes. Open your heart. Take a deep breath.
+                            What do you feel? A gentle touch of the breeze… Do you hear the silence? Not only around you
+                            — but within. The quiet hush beyond the city, beyond endless thoughts.
+                            And now — listen. The soft chirping of birds. The scent of wild herbs in the air. A deep
+                            sense of calm. Life's rush stays far behind. You feel how your body lets go, how your mind
+                            softens — filling with strength and energy, gifted by nature itself.
+
+                            Just 155 kilometers from Athens and 17 kilometers from Fterolaka of Mount Parnassos, is the
+                            most picturesque village in the area — Tithorea. Near the village of Tithorea, in the valley
+                            of the Boeotian Kifissos, since 1911, on an area of 120 acres, our cozy eco farm family
+                            hotel “Terra Nova” has taken root.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-slide">
+                <div class="home__slide">
+                    <div class="home__slide__image">
+                        <img src="https://raw.githubusercontent.com/KarinaR-Ch/Terra-Nova/main/img/parnassus-greece2%201.png"
+                            alt="Parnassos" />
+                    </div>
+                    <div class="home__slide__text animate">
+                        <h2 data-key="home2_title">About us</h2>
+                        <p data-key="home2_text" data-html="1">
+                            We are a warm family team: mom, dad, grandma, grandpa and two kids — a 9-year-old boy and a
+                            2-year-old girl. Together we created a cozy eco-farm, where everything is filled with life,
+                            care and simple joys.
+
+                            Our farm is a place where you can relax your soul: wake up to the chirping of birds, feed
+                            goats and chickens, or just drink tea under a tree. We welcome guests with children of any
+                            age and those who travel with animals — we have enough space for both play and peace. We
+                            invite you to visit, live and feel at home. It's easy to slow down here and remember how
+                            beautiful simple things can be.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-slide">
+                <div class="home__slide">
+                    <div class="home__slide__image">
+                        <img src="https://raw.githubusercontent.com/KarinaR-Ch/Terra-Nova/main/img/parnassos_spring.png"
+                            alt="Spring" />
+                    </div>
+
+                    <div class="home__slide__text animate">
+                        <h2 data-key="home3_title">Tithorea</h2>
+                        <p data-key="home3_text" data-html="1">
+                            Tithorea is the center of the E-65 trail, next to the famous Kahalas gorge, where the
+                            visitor has the opportunity to admire the old watermill "Ekklisia to Mylos", through a
+                            magical route with many caves and rocks in various shapes.
+                            Entering the village, on the left, there are remains of a wall from Hellenistic times that
+                            protected the settlement. In ancient times, Tithorea was one of the most important cities of
+                            Phocis with traces of habitation since 2000 BC. Its ancient wall from the 4th century BC and
+                            its Castle, its privileged geographical position, made it the most powerful center of the
+                            ancient era.
+                            The city was destroyed twice and after its third reconstruction it acquired the beautiful
+                            walls and the name Tithorea. Look for the small chapel of Agios Ioannis Theologos. It has
+                            old frescoes but the highlight is the early Christian mosaics from the 3rd century BC. You
+                            will see them under the illuminated glass floor.
+                            Due to the simultaneous roughness and sweetness of its terrain, Odysseus Androutsos set up
+                            his headquarters here, in his famous cave, which the locals call the Black Hole. It takes an
+                            hour and a half to hike there.
+                            Androutsos settled here with his mother, his wife Eleni, his sister, captains, a guard and
+                            the English philhellene Trelawney who also brought small cannons from England. How did they
+                            all fit in? Before settling in, Androutsos had craftsmen shape the cave, which had two bays,
+                            in order to make living comfortable. It was Androutsos' base from 1822 to 1825. Many
+                            treasure hunters passed through the Cave of Dysseas, as the residents of Tithorea called it.
+                            Legends about hidden treasures by Androutsos still surround it.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="nav-btn left" data-target="home">&#10094;</button>
+        <button class="nav-btn right" data-target="home">&#10095;</button>
+        <div class="dots" data-target="home"></div>
+    </section>
+
+    <!-- Residence -->
+    <section class="residence section-slider" id="residence">
+        <div class="section-track">
+            <div class="section-slide">
+                <div class="residence__container">
+                    <div class="residence__content">
+                        <div class="residence__text animate">
+                            <h1 class="heading" data-key="res1_title">Residence</h1>
+                            <p class="text" data-key="res1_text">
+                                Welcome to an elegant room where natural simplicity meets comfort and inspiration.
+                                Interior details emphasize the concept of eco-design and comfort, and a spacious window
+                                opens up to a view of nature. In our complex you will find apartments with stone
+                                finishing, a bathroom and a balcony, which can accommodate from 2 to 6 people.
+                            </p>
+                        </div>
+                        <div class="residence__image">
+                            <img src="https://raw.githubusercontent.com/KarinaR-Ch/Terra-Nova/main/img/residence/big/greece-tithorea-.344%3D344png%204.png"
+                                alt="Residence" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-slide">
+                <div class="residence__container">
+                    <div class="residence__content">
+                        <div class="residence__text animate">
+                            <h1 class="heading" data-key="res2_title">Rooms</h1>
+                            <p class="text" data-key="res2_text">
+                                Two neat single beds with crisp white linens are located opposite wide glass doors,
+                                which open up to magnificent views of Mount Parnassos. We also have rooms for larger
+                                families. The largest have up to 4 single beds. If necessary, we can provide cots for
+                                children.
+                            </p>
+                        </div>
+                        <div class="residence__image">
+                            <img src="https://raw.githubusercontent.com/KarinaR-Ch/Terra-Nova/refs/heads/main/img/residence/big/rooms-in-greece-tithorea-farm-family-hotel%20(1)%203.png"
+                                alt="Rooms" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-slide">
+                <div class="residence__container">
+                    <div class="residence__content">
+                        <div class="residence__text animate">
+                            <h1 class="heading" data-key="res3_title">Bath</h1>
+                            <p class="text" data-key="res3_text">
+                                The bathroom is designed in a natural style: The ceiling with wooden beams, walls made
+                                of natural stone, a stylish cabinet with two round sinks and soft lighting create an
+                                atmosphere of privacy and comfort. The room has everything for your comfortable stay:
+                                all essential items, thoughtful details and a cozy atmosphere.
+                            </p>
+                        </div>
+                        <div class="residence__image">
+                            <img src="https://raw.githubusercontent.com/KarinaR-Ch/Terra-Nova/refs/heads/main/img/residence/big/bathrooms-in-greece-tithorea-farm-family-hotel%20(1)%203.png"
+                                alt="Bath" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-slide">
+                <div class="residence__container">
+                    <div class="residence__content">
+                        <div class="residence__text animate">
+                            <h1 class="heading" data-key="res4_title">Nutrition</h1>
+                            <p class="text" data-key="res4_text">
+                                A special pleasure is traditional Greek home cooking, prepared with love from local
+                                products: fresh vegetables, aromatic herbs, olive oil, feta cheese, pies and dishes, the
+                                recipes of which are carefully passed down from generation to generation. Dinner with a
+                                view of the mountains turns into a real ritual of taste and comfort.
+                            </p>
+                        </div>
+                        <div class="residence__image">
+                            <img src="https://raw.githubusercontent.com/KarinaR-Ch/Terra-Nova/refs/heads/main/img/residence/big/dinningroom-in-greece-tithorea-farm-family-hotel%204.png"
+                                alt="Nutrition" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="nav-btn left" data-target="residence">&#10094;</button>
+        <button class="nav-btn right" data-target="residence">&#10095;</button>
+        <div class="dots" data-target="residence"></div>
+    </section>
+
+    <!-- Destinations -->
+    <section class="destinations section-slider" id="destinations">
+        <div class="section-track">
+            <div class="section-slide">
+                <div class="animate">
+                    <h1 data-key="dest1_title">Parnassos</h1>
+                    <p data-key="dest1_text">
+                        The oldest historical mention of Tithorea is made by Herodotus, who, describing Xerxes' march
+                        towards Athens after the Battle of Thermopylae in 480 BC, writes that the Persian soldiers
+                        burned the cities of the Cephissus valley.
+                    </p>
+                </div>
+            </div>
+            <div class="section-slide">
+                <div class="animate">
+                    <h1 data-key="dest2_title">Parnassos Ski Center</h1>
+                    <p data-key="dest2_text" data-html="1">
+                        The center has 19 slopes, 7 ski routes, 2 main communication corridors with the lower stations,
+                        8 connecting paths and 3 mini beginner slopes with baby lifts, with a total length of 36 Km. The
+                        descents start from 2260m and reach up to 1640m altitude with their individual length ranging
+                        from 300m to 4Km, in all degrees of difficulty and for all levels of ability.
+
+                        For lovers of adventure and fun there are several off-piste “black” routes with really deep snow
+                        and lots of adrenaline as well as 2 Fun parks in Kellaria and Fterolaka. Four of our slopes —
+                        No. 6 Iniochos, No. 8 Heracles, No. 9 Odysseas & No. 2 Bacchus — are certified by the
+                        International Ski Federation for the organization of international ski competitions.
+                    </p>
+                </div>
+            </div>
+            <div class="section-slide">
+                <div class="animate">
+                    <h1 data-key="dest3_title">Popular activities on Parnassos</h1>
+                    <p data-key="dest3_text" data-html="1">
+                        Hiking — Exploring the mythical mountain of Apollo: sceneries that take your breath away. Alpine
+                        sceneries with a view to the sea, endless fir forests, ancient monuments and the oldest National
+                        Park in Greece. With over 100 km of marked paths, Mount Parnassos offers you the opportunity to
+                        discover it from one edge to the other by hiking. E4 European long distance path. Among Delphi's
+                        hiking highlights is the part of E4 European long distance path, which connects Delphi with the
+                        alpine village of Eptalofos (Agoriani). The route passes through dense fir forests, crossing the
+                        core of the Parnassos National Park. The path is part of the ancient path that connected Delphi
+                        with ancient Lilaia and northern Greece.
+
+                        Ski Mountaineering — Parnassos is one of the most popular mountains for ski mountaineering in
+                        Greece. The great area of the mountain and the Alpine field also contribute to this, as well as
+                        the great snow cover that lasts for many months, the famous and big routes, while the existence
+                        of the Ski Resort is also considered important as it makes it easier for many people to have
+                        access to the area of the ski mountaineering.
+
+                        Climbing — Being one of the greatest mountains in Greece, Parnassos couldn’t fail to have
+                        climbing fields. Here, there are some of the most known climbing fields in the country, such as
+                        the one of Kouvelos.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <button class="nav-btn left" data-target="destinations">&#10094;</button>
+        <button class="nav-btn right" data-target="destinations">&#10095;</button>
+        <div class="dots" data-target="destinations"></div>
+    </section>
+
+    <!-- Activities -->
+    <section class="activities" id="activities">
+        <div class="cards-row">
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-face card-front">
+                        <img src="https://raw.githubusercontent.com/KarinaR-Ch/Terra-Nova/main/img/yoga.png"
+                            alt="Yoga" />
+                        <div class="card_caption" data-key="act1_front">Yoga in the olive garden</div>
+                    </div>
+                    <div class="card-face card-back">
+                        <div class="card-back-content">
+                            <h3 data-key="act1_title">Yoga in the olive garden</h3>
+                            <p data-key="act1_p1">• Morning practices with views of mountains and green fields</p>
+                            <p data-key="act1_p2">• Gentle yoga for beginners</p>
+                            <p data-key="act1_p3">• Pilates to strengthen muscles and improve posture</p>
+                            <p data-key="act1_p4">• A calm atmosphere filled with the natural energy of the surrounding
+                                landscape</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-face card-front">
+                        <img src="https://raw.githubusercontent.com/KarinaR-Ch/Terra-Nova/main/img/basket.png"
+                            alt="Olive Oil" />
+                        <div class="card_caption" data-key="act2_front">Olive Oil Workshop</div>
+                    </div>
+                    <div class="card-face card-back">
+                        <div class="card-back-content">
+                            <h3 data-key="act2_title">Olive Oil Workshop</h3>
+                            <p data-key="act2_p1">• Learn how to hand-pick olives the traditional way</p>
+                            <p data-key="act2_p2">• Discover how we sort and select the fruits for pressing</p>
+                            <p data-key="act2_p3">• Follow the entire journey from fresh olives to pure, cold-pressed
+                                olive oil</p>
+                            <p data-key="act2_p4">• Enjoy a delicious tasting of our fresh handmade oil</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-face card-front">
+                        <img src="https://raw.githubusercontent.com/KarinaR-Ch/Terra-Nova/main/img/animals.png"
+                            alt="Farm Zoo" />
+                        <div class="card_caption" data-key="act3_front">Contact farm zoo</div>
+                    </div>
+                    <div class="card-face card-back">
+                        <div class="card-back-content">
+                            <h3 data-key="act3_title">Contact farm zoo</h3>
+                            <p data-key="act3_p1">
+                                As you explore our farm, you’ll meet a variety of friendly animals that are sure to
+                                delight you — from our adorable sheep and playful goats to affectionate cats and loyal
+                                dogs. You’ll also meet some cute chickens. Every encounter promises a moment of joy and
+                                connection with nature! You can pet and feed our animals.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fotos -->
+    <section class="fotos" id="fotos" aria-label="Fotos"></section>
+    <img src="https://raw.githubusercontent.com/KarinaR-Ch/Terra-Nova/main/img/foto.png" alt="Fotos" />
+
+    <!-- Join -->
+    <section class="join" id="join">
+        <div class="join__content">
+            <h1 data-key="join_title">Book a room</h1>
+        <form class="form" id="joinForm" action="https://formspree.io/f/xkgvygww" method="POST">
+            <input type="text" name="name" placeholder="Name*" required />
+            <input type="email" name="email" placeholder="Email*" required />
+            <input type="text" name="subject" placeholder="Subject*" required />
+            <textarea name="message" placeholder="Message*" required></textarea>
+            <button type="submit">Join Now</button>
+        </form>
+
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal" id="successModal">
+        <div class="modal-content">
+            <h2 data-key="modal_title">Message Sent!</h2>
+            <p data-key="modal_text">Thank you for contacting Terra Nova. We will reply as soon as possible.</p>
+            <button id="closeModal" data-key="modal_close">Close</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="footer__col footer__logo">
+                <img src="https://raw.githubusercontent.com/KarinaR-Ch/Terra-Nova/main/img/Copilot_20250622_132442%201.png"
+                    alt="Terra Nova Logo">
+            </div>
+            <div class="footer__col">
+                <h4 data-key="footer_quick">Quick Links</h4>
+                <ul class="footer__links">
+                    <li><a href="#home" data-key="foot_home">Home</a></li>
+                    <li><a href="#residence" data-key="foot_residence">Residence</a></li>
+                    <li><a href="#destinations" data-key="foot_destinations">Destinations</a></li>
+                    <li><a href="#activities" data-key="foot_activities">Activities</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4 data-key="footer_contact">Contact</h4>
+                <ul class="footer__links">
+                    <li data-key="footer_email">Email: info@terranova.com</li>
+                    <li data-key="footer_phone">Phone: +30 123 456 789</li>
+                </ul>
+            </div>
+            <div class="footer__col">
+               <h4>Follow Us</h4>
+                <ul class="footer__links social">
+                    <li><a href="#"><i class="ri-facebook-circle-fill"></i></a></li>
+                    <li><a href="#"><i class="ri-instagram-fill"></i></a></li>
+                    <li><a href="#"><i class="ri-twitter-fill"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="copyright">© 2025 Terra Nova. Coded by Karina
+            Repinska-Churkina. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Scroll To Top Button -->
+    <button id="scrollTopBtn" aria-label="Scroll to top"><i class="ri-arrow-up-s-line"></i></button>
+
+    <script>
+        // Flip cards
+        document.querySelectorAll('.card').forEach(card => {
+            card.addEventListener('click', () => card.classList.toggle('flipped'));
+        });
+
+        // Slider for each section
+        document.querySelectorAll('.section-slider').forEach(section => {
+            const track = section.querySelector('.section-track');
+            const slides = section.querySelectorAll('.section-slide');
+            const leftBtn = section.querySelector('.nav-btn.left');
+            const rightBtn = section.querySelector('.nav-btn.right');
+            const dotsContainer = section.querySelector('.dots');
+            let index = 0;
+
+            if (!track || !leftBtn || !rightBtn || !dotsContainer) return;
+
+            slides.forEach((_, i) => {
+                const dot = document.createElement('button');
+                dot.classList.add('dot');
+                if (i === 0) dot.classList.add('active');
+                dot.addEventListener('click', () => {
+                    index = i;
+                    updateSlider();
+                });
+                dotsContainer.appendChild(dot);
+            });
+
+            const dots = dotsContainer.querySelectorAll('.dot');
+            function updateSlider() {
+                track.style.transform = `translateX(-${index * 100}%)`;
+                dots.forEach((d, i) => d.classList.toggle('active', i === index));
+            }
+            leftBtn.addEventListener('click', () => {
+                index = (index - 1 + slides.length) % slides.length;
+                updateSlider();
+            });
+            rightBtn.addEventListener('click', () => {
+                index = (index + 1) % slides.length;
+                updateSlider();
+            });
+        });
+
+        // IntersectionObserver для анімації тексту
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("show");
+                }
+            });
+        }, { threshold: 0.2 });
+        document.querySelectorAll('.animate').forEach(el => observer.observe(el));
+
+        // Scroll to top button
+        const scrollBtn = document.getElementById("scrollTopBtn");
+        window.addEventListener("scroll", () => {
+            scrollBtn.classList.toggle("show", window.scrollY > 300);
+        });
+        scrollBtn.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+
+        // Join form submit
+        const form = document.getElementById("joinForm");
+            const modal = document.getElementById("successModal");
+            const closeModalBtn = document.getElementById("closeModal");
+
+            if (form) {
+                form.addEventListener("submit", async (e) => {
+                    e.preventDefault();
+
+                    const formData = new FormData(form);
+
+                    try {
+                        const response = await fetch("https://formspree.io/f/xkgvygww", {
+                            method: "POST",
+                            headers: {
+                                Accept: "application/json",
+                            },
+                            body: formData,
+                        });
+
+                        if (response.ok) {
+                            modal.classList.add("show");
+                            form.reset();
+                        } else {
+                            alert("Помилка при надсиланні. Спробуйте ще раз.");
+                        }
+                    } catch (error) {
+                        console.error("Form error:", error);
+                        alert("З'єднання не вдалося.");
+                    }
+                });
+            }
+
+            if (closeModalBtn) {
+                closeModalBtn.addEventListener("click", () => {
+                    modal.classList.remove("show");
+                });
+            }
+
+            if (modal) {
+                modal.addEventListener("click", (e) => {
+                    if (e.target === modal) {
+                        modal.classList.remove("show");
+                    }
+                });
+            
+
+            
+
+        }
+
+        // =========================
+        // Language: EN ↔ GR
+        // =========================
+        const translations = {
+            EN: {
+                /* nav */
+                nav_home: "Home",
+                nav_residence: "Residence",
+                nav_destinations: "Destinations",
+                nav_activities: "Activities",
+                nav_fotos: "Fotos",
+                nav_join: "Join",
+
+                /* home slides */
+                home1_title: "Feel · Breath · Enjoy",
+                home1_text: `Close your eyes. Open your heart. Take a deep breath.
+What do you feel? A gentle touch of the breeze… Do you hear the silence? Not only around you — but within. The quiet hush beyond the city, beyond endless thoughts.
+And now — listen. The soft chirping of birds. The scent of wild herbs in the air. A deep sense of calm. Life's rush stays far behind. You feel how your body lets go, how your mind softens — filling with strength and energy, gifted by nature itself.
+
+Just 155 kilometers from Athens and 17 kilometers from Fterolaka of Mount Parnassos, is the most picturesque village in the area — Tithorea. Near the village of Tithorea, in the valley of the Boeotian Kifissos, since 1911, on an area of 120 acres, our cozy eco farm family hotel “Terra Nova” has taken root.`,
+
+                home2_title: "About us",
+                home2_text: `We are a warm family team: mom, dad, grandma, grandpa and two kids — a 9-year-old boy and a 2-year-old girl. Together we created a cozy eco-farm, where everything is filled with life, care and simple joys.
+
+Our farm is a place where you can relax your soul: wake up to the chirping of birds, feed goats and chickens, or just drink tea under a tree. We welcome guests with children of any age and those who travel with animals — we have enough space for both play and peace. We invite you to visit, live and feel at home. It's easy to slow down here and remember how beautiful simple things can be.`,
+
+                home3_title: "Tithorea",
+                home3_text: `Tithorea is the center of the E-65 trail, next to the famous Kahalas gorge, where the visitor has the opportunity to admire the old watermill "Ekklisia to Mylos", through a magical route with many caves and rocks in various shapes.
+Entering the village, on the left, there are remains of a wall from Hellenistic times that protected the settlement. In ancient times, Tithorea was one of the most important cities of Phocis with traces of habitation since 2000 BC. Its ancient wall from the 4th century BC and its Castle, its privileged geographical position, made it the most powerful center of the ancient era.
+The city was destroyed twice and after its third reconstruction it acquired the beautiful walls and the name Tithorea. Look for the small chapel of Agios Ioannis Theologos. It has old frescoes but the highlight is the early Christian mosaics from the 3rd century BC. You will see them under the illuminated glass floor.
+Due to the simultaneous roughness and sweetness of its terrain, Odysseus Androutsos set up his headquarters here, in his famous cave, which the locals call the Black Hole. It takes an hour and a half to hike there.
+Androutsos settled here with his mother, his wife Eleni, his sister, captains, a guard and the English philhellene Trelawney who also brought small cannons from England. How did they all fit in? Before settling in, Androutsos had craftsmen shape the cave, which had two bays, in order to make living comfortable. It was Androutsos' base from 1822 to 1825. Many treasure hunters passed through the Cave of Dysseas, as the residents of Tithorea called it. Legends about hidden treasures by Androutsos still surround it.`,
+
+                /* residence */
+                res1_title: "Residence",
+                res1_text: "Welcome to an elegant room where natural simplicity meets comfort and inspiration. Interior details emphasize the concept of eco-design and comfort, and a spacious window opens up to a view of nature. In our complex you will find apartments with stone finishing, a bathroom and a balcony, which can accommodate from 2 to 6 people.",
+                res2_title: "Rooms",
+                res2_text: "Two neat single beds with crisp white linens are located opposite wide glass doors, which open up to magnificent views of Mount Parnassos. We also have rooms for larger families. The largest have up to 4 single beds. If necessary, we can provide cots for children.",
+                res3_title: "Bath",
+                res3_text: "The bathroom is designed in a natural style: The ceiling with wooden beams, walls made of natural stone, a stylish cabinet with two round sinks and soft lighting create an atmosphere of privacy and comfort. The room has everything for your comfortable stay: all essential items, thoughtful details and a cozy atmosphere.",
+                res4_title: "Nutrition",
+                res4_text: "A special pleasure is traditional Greek home cooking, prepared with love from local products: fresh vegetables, aromatic herbs, olive oil, feta cheese, pies and dishes, the recipes of which are carefully passed down from generation to generation. Dinner with a view of the mountains turns into a real ritual of taste and comfort.",
+
+                /* destinations */
+                dest1_title: "Parnassos",
+                dest1_text: "The oldest historical mention of Tithorea is made by Herodotus, who, describing Xerxes' march towards Athens after the Battle of Thermopylae in 480 BC, writes that the Persian soldiers burned the cities of the Cephissus valley.",
+                dest2_title: "Parnassos Ski Center",
+                dest2_text: `The center has 19 slopes, 7 ski routes, 2 main communication corridors with the lower stations, 8 connecting paths and 3 mini beginner slopes with baby lifts, with a total length of 36 Km. The descents start from 2260m and reach up to 1640m altitude with their individual length ranging from 300m to 4Km, in all degrees of difficulty and for all levels of ability.
+
+For lovers of adventure and fun there are several off-piste “black” routes with really deep snow and lots of adrenaline as well as 2 Fun parks in Kellaria and Fterolaka. Four of our slopes — No. 6 Iniochos, No. 8 Heracles, No. 9 Odysseas & No. 2 Bacchus — are certified by the International Ski Federation for the organization of international ski competitions.`,
+                dest3_title: "Popular activities on Parnassos",
+                dest3_text: `Hiking — Exploring the mythical mountain of Apollo: sceneries that take your breath away. Alpine sceneries with a view to the sea, endless fir forests, ancient monuments and the oldest National Park in Greece. With over 100 km of marked paths, Mount Parnassos offers you the opportunity to discover it from one edge to the other by hiking. E4 European long distance path. Among Delphi's hiking highlights is the part of E4 European long distance path, which connects Delphi with the alpine village of Eptalofos (Agoriani). The route passes through dense fir forests, crossing the core of the Parnassos National Park. The path is part of the ancient path that connected Delphi with ancient Lilaia and northern Greece.
+
+Ski Mountaineering — Parnassos is one of the most popular mountains for ski mountaineering in Greece. The great area of the mountain and the Alpine field also contribute to this, as well as the great snow cover that lasts for many months, the famous and big routes, while the existence of the Ski Resort is also considered important as it makes it easier for many people to have access to the area of the ski mountaineering.
+
+Climbing — Being one of the greatest mountains in Greece, Parnassos couldn’t fail to have climbing fields. Here, there are some of the most known climbing fields in the country, such as the one of Kouvelos.`,
+
+                /* activities */
+                act1_front: "Yoga in the olive garden",
+                act1_title: "Yoga in the olive garden",
+                act1_p1: "• Morning practices with views of mountains and green fields",
+                act1_p2: "• Gentle yoga for beginners",
+                act1_p3: "• Pilates to strengthen muscles and improve posture",
+                act1_p4: "• A calm atmosphere filled with the natural energy of the surrounding landscape",
+
+                act2_front: "Olive Oil Workshop",
+                act2_title: "Olive Oil Workshop",
+                act2_p1: "• Learn how to hand-pick olives the traditional way",
+                act2_p2: "• Discover how we sort and select the fruits for pressing",
+                act2_p3: "• Follow the entire journey from fresh olives to pure, cold-pressed olive oil",
+                act2_p4: "• Enjoy a delicious tasting of our fresh handmade oil",
+
+                act3_front: "Contact farm zoo",
+                act3_title: "Contact farm zoo",
+                act3_p1: "As you explore our farm, you’ll meet a variety of friendly animals that are sure to delight you — from our adorable sheep and playful goats to affectionate cats and loyal dogs. You’ll also meet some cute chickens. Every encounter promises a moment of joy and connection with nature! You can pet and feed our animals.",
+
+                /* join form + modal */
+                join_title: "Book a room",
+                form_name: "Name*",
+                form_email: "Email*",
+                form_subject: "Subject*",
+                form_message: "Message*",
+                form_join: "Join Now",
+                modal_title: "Message Sent!",
+                modal_text: "Thank you for contacting Terra Nova. We will reply as soon as possible.",
+                modal_close: "Close",
+
+                /* footer */
+                footer_quick: "Quick Links",
+                foot_home: "Home",
+                foot_residence: "Residence",
+                foot_destinations: "Destinations",
+                foot_activities: "Activities",
+                footer_contact: "Contact",
+                footer_email: "Email: info@terranova.com",
+                footer_phone: "Phone: +30 123 456 789",
+                footer_follow: "Follow Us",
+                copyright: "© 2025 Terra Nova. All Rights Reserved."
+            },
+
+            GR: {
+                /* nav */
+                nav_home: "Αρχική",
+                nav_residence: "Διαμονή",
+                nav_destinations: "Προορισμοί",
+                nav_activities: "Δραστηριότητες",
+                nav_fotos: "Φωτογραφίες",
+                nav_join: "Συμμετοχή",
+
+                /* home slides */
+                home1_title: "Νιώσε · Ανάπνευσε · Απόλαυσε",
+                home1_text: `Κλείσε τα μάτια σου. Άνοιξε την καρδιά σου. Πάρε μια βαθιά ανάσα.
+Τι νιώθεις; Μια απαλή ανάσα του αέρα… Ακούς τη σιωπή; Όχι μόνο γύρω σου — αλλά και μέσα σου. Η ήρεμη γαλήνη πέρα από την πόλη, πέρα από τις ατέλειωτες σκέψεις.
+Και τώρα — άκου. Το απαλό κελάηδημα των πουλιών. Το άρωμα των αγριόχορτων στον αέρα. Ένα βαθύ συναίσθημα γαλήνης. Ο ρυθμός της ζωής μένει μακριά. Νιώθεις πώς το σώμα χαλαρώνει, ο νους μαλακώνει — γεμίζοντας δύναμη και ενέργεια, δώρο της ίδιας της φύσης.
+
+Μόλις 155 χιλιόμετρα από την Αθήνα και 17 χιλιόμετρα από τη Φτερόλακα του Παρνασσού, βρίσκεται το πιο γραφικό χωριό της περιοχής — η Τιθορέα. Κοντά στο χωριό, στην κοιλάδα του Βοιωτικού Κηφισού, από το 1911, σε έκταση 120 στρεμμάτων, έχει ριζώσει το ζεστό μας οικογενειακό αγρόκτημα-ξενοδοχείο “Terra Nova”.`,
+
+                home2_title: "Ποιοι είμαστε",
+                home2_text: `Είμαστε μια ζεστή οικογενειακή ομάδα: μαμά, μπαμπάς, γιαγιά, παππούς και δύο παιδιά — ένα αγόρι 9 ετών και ένα κορίτσι 2 ετών. Μαζί δημιουργήσαμε ένα φιλόξενο οικολογικό αγρόκτημα, όπου όλα είναι γεμάτα ζωή, φροντίδα και απλές χαρές.
+
+Το αγρόκτημά μας είναι ένας τόπος όπου ξεκουράζεται η ψυχή: ξυπνάς με το τραγούδι των πουλιών, ταΐζεις κατσίκες και κότες ή απλώς πίνεις τσάι κάτω από ένα δέντρο. Υποδεχόμαστε επισκέπτες με παιδιά κάθε ηλικίας και όσους ταξιδεύουν με ζώα — έχουμε αρκετό χώρο τόσο για παιχνίδι όσο και για ηρεμία. Σας προσκαλούμε να μας επισκεφθείτε, να μείνετε και να νιώσετε σαν στο σπίτι σας. Εδώ είναι εύκολο να κόψεις ρυθμούς και να θυμηθείς πόσο όμορφα είναι τα απλά πράγματα.`,
+
+                home3_title: "Τιθορέα",
+                home3_text: `Η Τιθορέα είναι το κέντρο του μονοπατιού Ε-65, δίπλα στο φημισμένο φαράγγι Καχάλας, όπου ο επισκέπτης έχει την ευκαιρία να θαυμάσει τον παλιό νερόμυλο «Εκκλησία το Μύλος», μέσα από μια μαγική διαδρομή με πολλές σπηλιές και βράχους σε διάφορα σχήματα.
+Μπαίνοντας στο χωριό, αριστερά, σώζονται τμήματα τείχους ελληνιστικών χρόνων που προστάτευαν τον οικισμό. Στην αρχαιότητα, η Τιθορέα ήταν από τις σημαντικότερες πόλεις της Φωκίδας με ίχνη κατοίκησης από το 2000 π.Χ. Το αρχαίο της τείχος του 4ου αι. π.Χ. και το Κάστρο της, η προνομιούχα γεωγραφική της θέση, την κατέστησαν ισχυρό κέντρο της εποχής.
+Η πόλη καταστράφηκε δύο φορές και μετά την τρίτη της ανοικοδόμηση απέκτησε τα όμορφα τείχη και το όνομα Τιθορέα. Αναζητήστε το μικρό παρεκκλήσι του Αγίου Ιωάννη του Θεολόγου. Έχει παλιές τοιχογραφίες, αλλά το πιο εντυπωσιακό είναι τα παλαιοχριστιανικά ψηφιδωτά του 3ου αι. π.Χ., ορατά κάτω από γυάλινο φωτιζόμενο δάπεδο.
+Λόγω της ταυτόχρονης αγριάδας και γλυκύτητας του τοπίου, ο Οδυσσέας Ανδρούτσος έστησε εδώ το αρχηγείο του, στη διάσημη σπηλιά του, που οι ντόπιοι λένε «Μαύρη Τρύπα». Χρειάζεται περίπου μιάμιση ώρα πεζοπορία για να φτάσει κανείς.
+Ο Ανδρούτσος εγκαταστάθηκε εδώ με τη μητέρα του, τη σύζυγό του Ελένη, την αδελφή του, καπεταναίους, φρουρά και τον Άγγλο φιλέλληνα Τρελώουνι, ο οποίος έφερε και μικρά κανόνια από την Αγγλία. Πώς χωρούσαν όλοι; Πριν εγκατασταθεί, τεχνίτες διαμόρφωσαν τη σπηλιά, που είχε δύο κόλπους, ώστε να γίνει κατάλληλη για διαμονή. Υπήρξε η βάση του Ανδρούτσου από το 1822 έως το 1825. Πολλοί κυνηγοί θησαυρών πέρασαν από τη «Σπηλιά του Δυσσέα», όπως την αποκαλούσαν οι κάτοικοι της Τιθορέας. Θρύλοι για κρυμμένους θησαυρούς του Ανδρούτσου τη συνοδεύουν ακόμη.`,
+
+                /* residence */
+                res1_title: "Διαμονή",
+                res1_text: "Καλώς ήρθατε σε ένα κομψό δωμάτιο όπου η φυσική απλότητα συναντά την άνεση και την έμπνευση. Οι λεπτομέρειες του εσωτερικού αναδεικνύουν την ιδέα του οικολογικού σχεδιασμού και της άνεσης, ενώ ένα ευρύχωρο παράθυρο ανοίγεται στη θέα της φύσης. Στο συγκρότημά μας θα βρείτε διαμερίσματα με πετρόκτιστο φινίρισμα, μπάνιο και μπαλκόνι, που μπορούν να φιλοξενήσουν από 2 έως 6 άτομα.",
+                res2_title: "Δωμάτια",
+                res2_text: "Δύο προσεγμένα μονά κρεβάτια με καθαρά λευκά σεντόνια βρίσκονται απέναντι από φαρδιές γυάλινες πόρτες που ανοίγουν σε υπέροχη θέα στον Παρνασσό. Διαθέτουμε επίσης δωμάτια για μεγαλύτερες οικογένειες — τα μεγαλύτερα έχουν έως 4 μονά κρεβάτια. Εφόσον χρειάζεται, παρέχουμε παιδικές κούνιες.",
+                res3_title: "Μπάνιο",
+                res3_text: "Το μπάνιο είναι σε φυσικό ύφος: ξύλινα δοκάρια στην οροφή, τοίχοι από φυσική πέτρα, κομψό έπιπλο με δύο στρογγυλούς νιπτήρες και απαλό φωτισμό που δημιουργεί αίσθηση ιδιωτικότητας και θαλπωρής. Το δωμάτιο διαθέτει όλα όσα χρειάζεστε για άνετη διαμονή: όλα τα απαραίτητα, προσεγμένες λεπτομέρειες και ζεστή ατμόσφαιρα.",
+                res4_title: "Διατροφή",
+                res4_text: "Μια ξεχωριστή απόλαυση είναι η παραδοσιακή ελληνική σπιτική κουζίνα, φτιαγμένη με αγάπη από τοπικά προϊόντα: φρέσκα λαχανικά, αρωματικά βότανα, ελαιόλαδο, φέτα, πίτες και πιάτα με συνταγές που περνούν προσεκτικά από γενιά σε γενιά. Ένα δείπνο με θέα στο βουνό γίνεται πραγματική ιεροτελεστία γεύσης και θαλπωρής.",
+
+                /* destinations */
+                dest1_title: "Παρνασσός",
+                dest1_text: "Η παλαιότερη ιστορική αναφορά για την Τιθορέα γίνεται από τον Ηρόδοτο, ο οποίος, περιγράφοντας την πορεία του Ξέρξη προς την Αθήνα μετά τη Μάχη των Θερμοπυλών το 480 π.Χ., γράφει ότι οι Πέρσες στρατιώτες έκαψαν τις πόλεις της κοιλάδας του Κηφισού.",
+                dest2_title: "Χιονοδρομικό Κέντρο Παρνασσού",
+                dest2_text: `Το κέντρο διαθέτει 19 πίστες, 7 διαδρομές σκι, 2 βασικούς διαδρόμους επικοινωνίας με τους κάτω σταθμούς, 8 συνδετήριες διαδρομές και 3 μίνι πίστες αρχαρίων με baby lifts, συνολικού μήκους 36 χλμ. Οι καταβάσεις ξεκινούν από τα 2260 μ. και φτάνουν έως τα 1640 μ., με μήκη από 300 μ. έως 4 χλμ., σε όλα τα επίπεδα δυσκολίας και για όλα τα επίπεδα ικανότητας.
+
+Για τους λάτρεις της περιπέτειας υπάρχουν αρκετές εκτός πίστας «μαύρες» διαδρομές με πραγματικά βαθύ χιόνι και πολλή αδρεναλίνη, καθώς και 2 Fun parks σε Κελλάρια και Φτερόλακα. Τέσσερις από τις πίστες μας — Νο 6 Ίννιοχος, Νο 8 Ηρακλής, Νο 9 Οδυσσέας και Νο 2 Βάκχος — είναι πιστοποιημένες από τη Διεθνή Ομοσπονδία Σκι για τη διοργάνωση διεθνών αγώνων σκι.`,
+                dest3_title: "Δημοφιλείς δραστηριότητες στον Παρνασσό",
+                dest3_text: `Πεζοπορία — Εξερεύνηση του μυθικού βουνού του Απόλλωνα: τοπία που κόβουν την ανάσα. Αλπικά σκηνικά με θέα στη θάλασσα, ατελείωτα ελατοδάση, αρχαία μνημεία και το παλαιότερο Εθνικό Πάρκο της Ελλάδας. Με πάνω από 100 χλμ. σηματοδοτημένων μονοπατιών, ο Παρνασσός προσφέρει τη δυνατότητα να τον ανακαλύψεις από άκρη σε άκρη πεζοπορώντας. Το ευρωπαϊκό μονοπάτι μεγάλων αποστάσεων Ε4: από τα highlights της πεζοπορίας στους Δελφούς είναι το τμήμα του Ε4 που συνδέει τους Δελφούς με το αλπικό χωριό Επτάλοφος (Αγόριανη). Η διαδρομή περνά μέσα από πυκνά ελατοδάση, διασχίζοντας τον πυρήνα του Εθνικού Πάρκου Παρνασσού. Το μονοπάτι είναι τμήμα του αρχαίου δρόμου που συνέδεε τους Δελφούς με την αρχαία Λιλαία και τη βόρεια Ελλάδα.
+
+Ορειβατικό σκι — Ο Παρνασσός είναι από τα δημοφιλέστερα βουνά για ορειβατικό σκι στην Ελλάδα. Συμβάλλουν σε αυτό η μεγάλη του έκταση και το αλπικό πεδίο, καθώς και η μεγάλη χιονοκάλυψη που κρατά για πολλούς μήνες, οι γνωστές και μεγάλες διαδρομές, ενώ σημαντική θεωρείται και η ύπαρξη του Χιονοδρομικού, που διευκολύνει την πρόσβαση πολλών στην περιοχή της δραστηριότητας.
+
+Αναρρίχηση — Ως ένα από τα σπουδαιότερα βουνά της Ελλάδας, ο Παρνασσός δεν θα μπορούσε να μην έχει αναρριχητικά πεδία. Εδώ υπάρχουν από τα πιο γνωστά της χώρας, όπως του Κουβέλου.`,
+
+                /* activities */
+                act1_front: "Γιόγκα στο ελαιόδεντρο",
+                act1_title: "Γιόγκα στο ελαιόδεντρο",
+                act1_p1: "• Πρωινές πρακτικές με θέα στο βουνό και τα πράσινα χωράφια",
+                act1_p2: "• Απαλή γιόγκα για αρχάριους",
+                act1_p3: "• Pilates για ενδυνάμωση και βελτίωση στάσης",
+                act1_p4: "• Ήρεμη ατμόσφαιρα, γεμάτη από τη φυσική ενέργεια του τοπίου",
+
+                act2_front: "Εργαστήριο Ελαιολάδου",
+                act2_title: "Εργαστήριο Ελαιολάδου",
+                act2_p1: "• Μάθε πώς να μαζεύεις ελιές με το χέρι με τον παραδοσιακό τρόπο",
+                act2_p2: "• Δες πώς διαλέγουμε και ταξινομούμε τους καρπούς για το πάτημα",
+                act2_p3: "• Ακολούθησε όλη τη διαδρομή από τη φρέσκια ελιά στο αγνό, ψυχρής έκθλιψης ελαιόλαδο",
+                act2_p4: "• Δοκίμασε το φρέσκο χειροποίητο λάδι μας",
+
+                act3_front: "Επαφή με τα ζώα της φάρμας",
+                act3_title: "Επαφή με τα ζώα της φάρμας",
+                act3_p1: "Καθώς εξερευνάτε τη φάρμα, θα γνωρίσετε φιλικά ζώα που θα σας χαροποιήσουν — από τα αξιαγάπητα πρόβατα και τα παιχνιδιάρικα κατσίκια μέχρι τις τρυφερές γάτες και τους πιστούς σκύλους. Θα συναντήσετε και χαριτωμένες κότες. Κάθε συνάντηση υπόσχεται χαρά και σύνδεση με τη φύση! Μπορείτε να χαϊδέψετε και να ταΐσετε τα ζώα μας.",
+
+                /* join + modal */
+                join_title: "Κλείσε δωμάτιο",
+                form_name: "Όνομα*",
+                form_email: "Email*",
+                form_subject: "Θέμα*",
+                form_message: "Μήνυμα*",
+                form_join: "Κάνε κράτηση",
+                modal_title: "Το μήνυμα στάλθηκε!",
+                modal_text: "Ευχαριστούμε που επικοινωνήσατε με το Terra Nova. Θα απαντήσουμε το συντομότερο.",
+                modal_close: "Κλείσιμο",
+
+                /* footer */
+                footer_quick: "Γρήγοροι Σύνδεσμοι",
+                foot_home: "Αρχική",
+                foot_residence: "Διαμονή",
+                foot_destinations: "Προορισμοί",
+                foot_activities: "Δραστηριότητες",
+                footer_contact: "Επικοινωνία",
+                footer_email: "Email: info@terranova.com",
+                footer_phone: "Τηλέφωνο: +30 123 456 789",
+                footer_follow: "Ακολουθήστε μας",
+                copyright: "© 2025 Terra Nova. Με επιφύλαξη παντός δικαιώματος."
+            }
+        };
+
+        const langBtn = document.getElementById("langToggle");
+        let currentLang = localStorage.getItem("terraLang") || "EN";
+
+        function applyTranslations(lang) {
+            document.documentElement.setAttribute("lang", lang === "EN" ? "en" : "el");
+            document.querySelectorAll("[data-key]").forEach(el => {
+                const key = el.getAttribute("data-key");
+                const dict = translations[lang];
+                if (!dict || !dict[key]) return;
+
+                // Inputs / Textareas → placeholder
+                if (el.tagName === "INPUT" || el.tagName === "TEXTAREA") {
+                    el.placeholder = dict[key];
+                } else {
+                    const isHtml = el.hasAttribute("data-html");
+                    if (isHtml) {
+                        // turn \n\n into <br><br>
+                        el.innerHTML = dict[key]
+                            .split("\n\n").map(p => p.trim()).join("<br><br>");
+                    } else {
+                        el.textContent = dict[key];
+                    }
+                }
+            });
+            langBtn.textContent = lang === "EN" ? "EN | GR" : "GR | EN";
+            localStorage.setItem("terraLang", lang);
+        }
+
+        // Init on load
+        applyTranslations(currentLang);
+
+        // Toggle
+        langBtn.addEventListener("click", () => {
+            currentLang = currentLang === "EN" ? "GR" : "EN";
+            applyTranslations(currentLang);
+        });
+    </script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        emailjs.init("YOUR_USER_ID");
+    </script>
+
+
 </body>
 </html>
 
